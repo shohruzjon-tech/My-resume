@@ -9,6 +9,7 @@ import Button from '@material-ui/core/Button';
 import Typography from '@material-ui/core/Typography';
 
 
+import './portfolios.styles.scss';
 
 const useStyles = makeStyles({
   root: {
@@ -46,7 +47,7 @@ const classes = useStyles();
          </CardActionArea>
          <CardActions>
        <a href={link}  target='_blank'> 
-         <Button size="small" color="primary" >
+          <Button size="small" color="primary" >
           Learn More
          </Button>
         </a>

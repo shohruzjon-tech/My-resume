@@ -8,7 +8,7 @@ import CustomButton from '../button/button.component';
 import GetAppIcon from '@material-ui/icons/GetApp';
 
 
-
+import './work-history.styles.scss';
 
 
 

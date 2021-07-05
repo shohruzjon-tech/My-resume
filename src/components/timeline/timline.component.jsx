@@ -27,13 +27,12 @@ export default function TimelineComponent({title, icon, children}) {
           </TimelineDot>
           <TimelineConnector />
         </TimelineSeparator>
-        <TimelineContent>
-          <Typography className="timline__header">
+        <TimelineContent   className="timline__header-container">
+          <h2 className="timline__header">
             {title}
-          </Typography>
+          </h2>
         </TimelineContent>
       </TimelineItem>
-
          {children}
 </Timeline>
     )

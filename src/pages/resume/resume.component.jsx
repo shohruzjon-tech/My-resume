@@ -12,6 +12,7 @@ const  Resume=()=> {
       header:{
           background:"#fff",
           display:'flex',
+          padding:'20px 0'
       }
   }
 

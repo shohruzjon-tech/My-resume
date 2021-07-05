@@ -16,34 +16,34 @@ export default {
 
     socials:{
         Linkedin:{
-            link:'https://facebook.com',
+            link:'https://www.linkedin.com/in/abdivakilov-shohruzjon-3417941a7',
             text:'My linkedin',
             icon:<LinkedInIcon/>,
         },
         Github:{
-            link:'https://facebook.com',
+            link:'https://github.com/shohruzjon-tech',
             text:'Shohruzjon-tech',
             icon:<GitHubIcon/>,
         },
     },
     headerSocials:{
          Linkedin:{
-            link:'https://facebook.com',
+            link:'https://www.linkedin.com/in/abdivakilov-shohruzjon-3417941a7',
             text:'My linkedin',
             icon:<LinkedInIcon/>,
         },
         Github:{
-            link:'https://facebook.com',
+            link:'https://github.com/shohruzjon-tech',
             text:'My github',
             icon:<GitHubIcon/>,
         },
         Facebook:{
-            link:'https://facebook.com',
+            link:'https://www.facebook.com/shohruzjon.abdivakilov/',
             text:'My github',
             icon:<FacebookIcon/>,
         },
         Instagram:{
-            link:'https://facebook.com',
+            link:'https://www.instagram.com/shohruzjon_a/',
             text:'My github',
             icon:<InstagramIcon/>,
         },
@@ -184,19 +184,22 @@ export default {
 
    portfolios:{
        uzstore:{
-           link:'https://uzstore.uzstoreapp.com',
-           imgUrl:'',
-           title:'UZSTORE MARKET'
+           link:'https://uzstore.firebaseapp.com',
+           imgUrl:'https://firebasestorage.googleapis.com/v0/b/uzstore.appspot.com/o/images%2Fadmin%2FScreenshot%20(107).png?alt=media&token=c990778c-2d3a-49c2-b9a5-a0006f7df82f',
+           title:'UZSTORE MARKET',
+           text:'Fully functional e-commerce website for business startup'
        },
        crown:{
            link:'https://uzstore.uzstoreapp.com',
-           imgUrl:'',
-           title:'UZSTOREAPP'
+           imgUrl:'https://www.freelogoservices.com/api/main/images/1j+ojVVCOMkX9Wyrexe4hGfM5JXk03U6jkLP2mE1NmkXoBkwyXQgjvBo...fU6KRwF9xRV2lVKJ8s8jiZ6V4kTihpi6W7TZtUKBiE7jScF',
+           title:'UZSTOREAPP',
+           text:'Mobile application of UZSTORE MARKET  for admin control'
        },
        uzstoreapp:{
-           link:'https://uzstore.firebaseapp.com',
-           imgUrl:'',
-           title:'Crown'
+           link:'https://my-test-8f997.firebaseapp.com',
+           imgUrl:'https://firebasestorage.googleapis.com/v0/b/uzstore.appspot.com/o/images%2Fposter%2Fth%20(2).jpg?alt=media&token=7752ba6f-8253-4137-944f-1d511f674eb9',
+           title:'CRWN Clothing ltd',
+           text:'Fully functional and stripe payment methods integrated website'
        }
    }
 }
