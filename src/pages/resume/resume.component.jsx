@@ -5,20 +5,14 @@ import WorkIcon from '@material-ui/icons/Work';
 import EducationIcon from '@material-ui/icons/CastForEducation';
 
 
+import './resume.styles.scss';
+
+
 const  Resume=()=> {
-
-
-  const styles={
-      header:{
-          background:"#fff",
-          display:'flex',
-          padding:'20px 0'
-      }
-  }
 
     
     return (
-        <div style={styles.header}>
+        <div  className="resume__container">
               <Experience  objects={reseumeData.workHistory} icon={<WorkIcon/>} tagName="Work History"/>
               <Experience  objects={reseumeData.educationHistory} icon={<EducationIcon/>} tagName="Education History"/>
         </div>

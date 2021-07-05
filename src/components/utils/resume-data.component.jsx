@@ -190,7 +190,6 @@ export default {
            text:'Fully functional e-commerce website for business startup'
        },
        crown:{
-           link:'https://uzstore.uzstoreapp.com',
            imgUrl:'https://www.freelogoservices.com/api/main/images/1j+ojVVCOMkX9Wyrexe4hGfM5JXk03U6jkLP2mE1NmkXoBkwyXQgjvBo...fU6KRwF9xRV2lVKJ8s8jiZ6V4kTihpi6W7TZtUKBiE7jScF',
            title:'UZSTOREAPP',
            text:'Mobile application of UZSTORE MARKET  for admin control'

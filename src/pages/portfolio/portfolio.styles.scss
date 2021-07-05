@@ -22,7 +22,17 @@
         }
     }
 
-    .portfolio___grid-box{
+}
+
+ .portfolio___grid-cont{
         padding:20px 0;
+        display:grid;
+        grid-template-columns:1fr 1fr 1fr;
+        grid-gap:20px;
+    }
+
+@media screen  and (max-width:490px){
+    .portfolio___grid-cont{
+       grid-template-columns:1fr;
     }
 }

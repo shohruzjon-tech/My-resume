@@ -1,0 +1,13 @@
+.resume__container{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+}
+
+
+
+
+@media  screen and (max-width:490px){
+   .resume__container{
+      grid-template-columns:1fr;
+   } 
+}

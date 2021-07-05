@@ -30,10 +30,10 @@ const  ContactPage= () => {
 
   return (
         <Grid container style={{background:"#fff"}}> 
-              <Grid item xs={6}> 
+              <Grid item sm={6} xs={12}> 
                    <ContactForm/>
               </Grid>
-              <Grid item xs={6}> 
+              <Grid item sm={6} xs={12}> 
                   <AddressComponent/>
               </Grid>
               <Grid item xs={12}> 
